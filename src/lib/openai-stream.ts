@@ -11,6 +11,7 @@ import {
     content: string;
   }
   
+  {/* TS-Interface für das StreamPayload festlegen */}
   export interface OpenAIStreamPayload {
     model: string;
     messages: ChatGPTMessage[];
@@ -23,7 +24,10 @@ import {
     n: number;
   }
   
+  {/*  */}
   export async function OpenAIStream(payload: OpenAIStreamPayload) {
+
+    {/*  */}
     const encoder = new TextEncoder();
     const decoder = new TextDecoder();
   
@@ -32,12 +36,13 @@ import {
     const res = await fetch("https://api.openai.com/v1/chat/completions", {
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.OPENAI_API_KEY ?? ""}`,
+        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
       },
       method: "POST",
       body: JSON.stringify(payload),
     });
   
+    {/* den lesbaren Stream festlegen */}
     const stream = new ReadableStream({
       async start(controller) {
         // callback
@@ -45,7 +50,7 @@ import {
           if (event.type === "event") {
             const data = event.data;
             // https://beta.openai.com/docs/api-reference/completions/create#completions/create-stream
-            if (data === "[DONE]") {
+            if (data === '[DONE]') {
               controller.close();
               return;
             }

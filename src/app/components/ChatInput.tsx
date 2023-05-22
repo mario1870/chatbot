@@ -25,8 +25,19 @@ const ChatInput: FC<ChatInputProps> = ({ className, ...props }) => {
 
                 return response.body
             },
-            onSuccess: () => {
-                console.log("Success")
+            onSuccess: async (stream) => {
+                if(!stream) throw new Error("No Stream found")
+
+                const reader = stream.getReader()
+                const decoder = new TextDecoder()
+                let done = false
+
+                while (!done) {
+                    const { value, done: doneReading} = await reader.read()
+                    done = doneReading
+                    const chunkValue = decoder.decode(value)
+                    console.log(chunkValue)
+                }
             }
         }
     )

@@ -18,8 +18,9 @@ export default function RootLayout({
     <html lang="en">
       <Providers>
         <body>
+          {/* Chatkomponente in das Layout rendern */}
           <Chat />
-            	{children}
+          {children}
           </body>
       </Providers>
     </html>

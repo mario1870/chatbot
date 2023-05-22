@@ -1,5 +1,3 @@
-
-
 export const bookData = `
 <url>
 <loc>https://books.toscrape.com/</loc>

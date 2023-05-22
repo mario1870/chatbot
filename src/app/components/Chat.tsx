@@ -6,7 +6,9 @@ import { FC } from "react"
 import ChatHeader from "../components/ChatHeader"
 import ChatInput from "../components/ChatInput"
 
+// Chat-Komponente als FC (functional component) für TS setzen
 const Chat: FC = () => {
+
     return (
     <Accordion type="single" collapsible className="relative bg-white z-40 shadow">
         <AccordionItem value="item-1">

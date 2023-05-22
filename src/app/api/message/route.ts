@@ -23,6 +23,7 @@ export async function POST(req: Request) {
     content: chatbotPrompt,
   })
 
+  {/* Payload festlegen, die an die OPENAI-API gesendet wird */}
   const payload: OpenAIStreamPayload = {
     model: 'gpt-3.5-turbo',
     messages: outboundMessages,
@@ -35,7 +36,9 @@ export async function POST(req: Request) {
     n: 1,
   }
 
+  {/* Funktion definieren, die die Payload nimmt und uns einen Stream mit den Antworten zurückgibt */}
   const stream = await OpenAIStream(payload)
 
+  {/* Stream als Response zurückgeben */}
   return new Response(stream)
 }

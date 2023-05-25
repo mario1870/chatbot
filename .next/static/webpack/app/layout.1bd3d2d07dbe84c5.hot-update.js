@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/layout",{
+
+/***/ "(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Capp%5Cglobals.css&modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Capp%5Ccomponents%5CChatInput.tsx&modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Ccomponents%5Cui%5Caccordion.tsx&modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Capp%5Ccomponents%5CProviders.tsx&server=false!":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Capp%5Cglobals.css&modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Capp%5Ccomponents%5CChatInput.tsx&modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Ccomponents%5Cui%5Caccordion.tsx&modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Capp%5Ccomponents%5CProviders.tsx&server=false! ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/globals.css */ \"(app-client)/./src/app/globals.css\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/components/ChatInput.tsx */ \"(app-client)/./src/app/components/ChatInput.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/components/ui/accordion.tsx */ \"(app-client)/./src/components/ui/accordion.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/components/Providers.tsx */ \"(app-client)/./src/app/components/Providers.tsx\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1jbGllbnQpLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1mbGlnaHQtY2xpZW50LWVudHJ5LWxvYWRlci5qcz9tb2R1bGVzPUMlM0ElNUNVc2VycyU1Q21hcmlvJTVDY2h0YnQlNUNjaGF0Ym90JTVDc3JjJTVDYXBwJTVDZ2xvYmFscy5jc3MmbW9kdWxlcz1DJTNBJTVDVXNlcnMlNUNtYXJpbyU1Q2NodGJ0JTVDY2hhdGJvdCU1Q3NyYyU1Q2FwcCU1Q2NvbXBvbmVudHMlNUNDaGF0SW5wdXQudHN4Jm1vZHVsZXM9QyUzQSU1Q1VzZXJzJTVDbWFyaW8lNUNjaHRidCU1Q2NoYXRib3QlNUNzcmMlNUNjb21wb25lbnRzJTVDdWklNUNhY2NvcmRpb24udHN4Jm1vZHVsZXM9QyUzQSU1Q1VzZXJzJTVDbWFyaW8lNUNjaHRidCU1Q2NoYXRib3QlNUNzcmMlNUNhcHAlNUNjb21wb25lbnRzJTVDUHJvdmlkZXJzLnRzeCZzZXJ2ZXI9ZmFsc2UhLmpzIiwibWFwcGluZ3MiOiJBQUFBLDZKQUE0RjtBQUM1Rix1TEFBMEc7QUFDMUcscUxBQXlHO0FBQ3pHIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8/NTJjYyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIkM6XFxcXFVzZXJzXFxcXG1hcmlvXFxcXGNodGJ0XFxcXGNoYXRib3RcXFxcc3JjXFxcXGFwcFxcXFxnbG9iYWxzLmNzc1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiQzpcXFxcVXNlcnNcXFxcbWFyaW9cXFxcY2h0YnRcXFxcY2hhdGJvdFxcXFxzcmNcXFxcYXBwXFxcXGNvbXBvbmVudHNcXFxcQ2hhdElucHV0LnRzeFwiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiQzpcXFxcVXNlcnNcXFxcbWFyaW9cXFxcY2h0YnRcXFxcY2hhdGJvdFxcXFxzcmNcXFxcY29tcG9uZW50c1xcXFx1aVxcXFxhY2NvcmRpb24udHN4XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJDOlxcXFxVc2Vyc1xcXFxtYXJpb1xcXFxjaHRidFxcXFxjaGF0Ym90XFxcXHNyY1xcXFxhcHBcXFxcY29tcG9uZW50c1xcXFxQcm92aWRlcnMudHN4XCIpIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Capp%5Cglobals.css&modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Capp%5Ccomponents%5CChatInput.tsx&modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Ccomponents%5Cui%5Caccordion.tsx&modules=C%3A%5CUsers%5Cmario%5Cchtbt%5Cchatbot%5Csrc%5Capp%5Ccomponents%5CProviders.tsx&server=false!\n"));
+
+/***/ }),
+
+/***/ "(app-client)/./src/app/globals.css":
+/*!*****************************!*\
+  !*** ./src/app/globals.css ***!
+  \*****************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"df400d9cace6\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1jbGllbnQpLy4vc3JjL2FwcC9nbG9iYWxzLmNzcy5qcyIsIm1hcHBpbmdzIjoiO0FBQUEsK0RBQWUsY0FBYztBQUM3QixJQUFJLElBQVUsSUFBSSxpQkFBaUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2FwcC9nbG9iYWxzLmNzcz9kYzUyIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiZGY0MDBkOWNhY2U2XCJcbmlmIChtb2R1bGUuaG90KSB7IG1vZHVsZS5ob3QuYWNjZXB0KCkgfVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-client)/./src/app/globals.css\n"));
+
+/***/ })
+
+});
